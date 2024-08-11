@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-container {
+  background-color: #ffffff33;
+  border: 2px solid #ffffff33;
+  height: 80px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.emoji-logo {
+  width: 40px;
+  height: 40px;
+}
+.logo-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 3px;
+}
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.score-count {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 19px;
+  margin-right: 10px;
+}
+.top-score-count {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 19px;
+  margin-left: 10px;
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.emoji-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(160deg,#9796f0,#fbc7d4);
+}
+.game-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+@media only screen and (max-width: 768px) {
+  .game-container {
+    width: 85%;
+  }
+  .emoji-list-container {
+    width: 100%;
+  }
+}
